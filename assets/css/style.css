@@ -31,6 +31,14 @@ body::before {
     background-attachment: fixed;
   }
 }
+/* Responsiveness */
+@media (max-width: 820px) {
+  body::before{
+      background-image: none;
+      background-size: none;
+      background-color: rgb(16, 37, 58);
+  }
+}
 
 a {
   /* color: #18d26e; */
